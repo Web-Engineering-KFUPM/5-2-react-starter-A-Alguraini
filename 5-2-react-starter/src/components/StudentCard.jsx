@@ -1,13 +1,11 @@
-
-
 function StudentCard(props) {
   return (
-    <div>
-      <h3>{props.name}</h3>
-      <p>ID: {props.id}</p>
-      <p>Dept: {props.dept}</p>
+    <div className="student-card">
+      <h3>Name: {props.name}</h3>
+      <p>Student ID: {props.id}</p>
+      <p>Department: {props.dept}</p>
     </div>
-  )
+  );
 }
 
 export default StudentCard;
